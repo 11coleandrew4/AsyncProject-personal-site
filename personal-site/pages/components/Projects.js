@@ -22,15 +22,6 @@ export default class Projects extends Component {
         <div className="picture" id="get-money-app-picture">
           <GetMoneyPicture />
         </div>
-
-        <main className="projects-main">
-          <div id="aboutMe">
-            <h1 className="pageTitle"></h1>
-            <p className="infoText"></p>
-          </div>
-        </main>
-
-        <footer className="projects-footer"></footer>
       </div>
     );
   }

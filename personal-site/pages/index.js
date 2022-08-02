@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+
 import Head from 'next/head';
-import Image from 'next/image';
+
 import styles from '../styles/Home.module.css';
 import Projects from './components/Projects';
 
 import MainPage from './components/MainPage';
 import Navbar1 from './components/Navbar1';
+import LinkedinLogo from './components/LinkedinLogo';
 
 export default class index extends Component {
   constructor() {
@@ -45,12 +47,15 @@ export default class index extends Component {
           clickHandler={this.clickHandler}
         />
         <main className={styles.main}>
-          <div id="aboutMe">
-            {this.state.projectView ? <Projects /> : <MainPage />}
-          </div>
+          <div>{this.state.projectView ? <Projects /> : <MainPage />}</div>
         </main>
 
-        <footer className={styles.footer}>Created By Cole Berman</footer>
+        <footer className={styles.footer}>
+          <div id="footer-text">Created By Cole Berman</div>
+          <div id="linkedin-logo">
+            <LinkedinLogo />
+          </div>
+        </footer>
       </div>
     );
   }
