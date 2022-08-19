@@ -52,9 +52,7 @@ export default class index extends Component {
 
         <footer className={styles.footer}>
           <div id="footer-text">Created By Cole Berman</div>
-          <div id="linkedin-logo">
-            <LinkedinLogo />
-          </div>
+          <div id="linkedin-logo">{/* <LinkedinLogo /> */}</div>
         </footer>
       </div>
     );

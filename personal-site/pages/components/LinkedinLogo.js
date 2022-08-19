@@ -9,8 +9,8 @@ function LinkedinLogo() {
           <Image
             src="/linkedin-icon.png"
             alt="me"
-            width="40"
-            height="40"
+            width="130"
+            height="130"
             className="picture"
           />
         </div>
