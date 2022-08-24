@@ -213,8 +213,14 @@ a {
 
 #linkedin-link {
   position: absolute;
-  padding-left: 28rem;
-  bottom: 22rem;
+  margin-left: 28rem;
+  margin-top: -29.5rem;
   /* margin-left: 160%;
   bottom: 20rem; */
 }
+
+/* #projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
