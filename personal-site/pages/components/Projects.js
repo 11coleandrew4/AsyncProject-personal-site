@@ -4,6 +4,7 @@ import GottaGoPicture from './GottaGoPicture';
 import DogAppPicture from './DogAppPicture';
 import GetMoneyPicture from './GetMoneyPicture';
 import GottaGoDemo from './GottaGoDemo';
+import GottaGoLogo from './GottaGoLogo';
 
 export default class Projects extends Component {
   render() {
@@ -15,8 +16,30 @@ export default class Projects extends Component {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <div>
-          <div>
-            <GottaGoDemo />
+          <div id="test">
+            <div>
+              <GottaGoDemo />
+            </div>
+
+            <div id="gotta-go-logo-container">
+              <GottaGoLogo />
+
+              <div id="gotta-go-text">
+                <br />
+                <br />
+                <p>
+                  GottaGo is a fully functional mobile application that shows
+                  <br />
+                  and directs users to the closest public restrooms. Users also
+                  have the
+                  <br /> option of filtering by wheelchair accessible restrooms
+                  as well as restrooms <br /> with baby changing tables. This
+                  app leverages data from a third-party API
+                  <br /> as well as the react-native-maps and
+                  react-native-open-maps libraries.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         {/* <div className="picture" id="gotta-go-picture">
