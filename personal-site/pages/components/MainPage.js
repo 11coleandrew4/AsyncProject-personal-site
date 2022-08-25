@@ -15,19 +15,12 @@ export default class MainPage extends Component {
                 onInit={(typewriter) => {
                   typewriter
                     .typeString('Home Cook')
-                    // .pauseFor(300)
                     .deleteAll()
-                    // .typeString('Amature Comedian')
-                    // // .pauseFor(300)
-                    // .deleteAll()
                     .typeString('Guitar Player')
-                    // .pauseFor(300)
                     .deleteAll()
                     .typeString('Software Engineer')
                     .pauseFor(1000)
-                    //.typeString(' (..... and your next great hire?)')
                     .pauseFor(1500)
-                    // .deleteChars(34)
                     .start();
                 }}
               />
