@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 import GottaGoPicture from './GottaGoPicture';
 import DogAppPicture from './DogAppPicture';
 import GetMoneyPicture from './GetMoneyPicture';
@@ -37,6 +38,12 @@ export default class Projects extends Component {
                   app leverages data from a third-party API
                   <br /> as well as the react-native-maps and
                   react-native-open-maps libraries.
+                  <br />
+                  <span id="gottago-link">
+                    <Link href="https://github.com/11coleandrew4/GottaGo">
+                      Check it out on GitHub!
+                    </Link>
+                  </span>
                 </p>
               </div>
             </div>
