@@ -245,7 +245,7 @@ a {
   padding-right: 20px;
 }
 
-p {
+#gotta-go-paragraph {
   text-indent: 5%;
   line-height: 150%;
   font-size: 18px;
@@ -254,4 +254,31 @@ p {
 
 #gottago-link {
   color: cornflowerblue;
+}
+
+#nbf-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 26em;
+  margin-top: 10em;
+  margin-bottom: 7em;
+  height: fit-content;
+  width: fit-content;
+}
+
+#test {
+  margin-left: 17em;
+}
+
+#nbf-text {
+  margin-right: -9em;
+  text-indent: 5%;
+  line-height: 150%;
+  margin-left: -9em;
+  font-size: 18px;
+}
+
+#nbf-demo {
+  width: 640px;
+  height: 334px;
 }

@@ -6,6 +6,7 @@ import DogAppPicture from './DogAppPicture';
 import GetMoneyPicture from './GetMoneyPicture';
 import GottaGoDemo from './GottaGoDemo';
 import GottaGoLogo from './GottaGoLogo';
+import NoBareFeetDemo from './NoBareFeetDemo';
 
 export default class Projects extends Component {
   render() {
@@ -28,7 +29,7 @@ export default class Projects extends Component {
               <div id="gotta-go-text">
                 <br />
                 <br />
-                <p>
+                <p id="gotta-go-paragraph">
                   GottaGo is a fully functional mobile application that shows
                   and directs users to the closest public restrooms. Users also
                   have the option of filtering by wheelchair accessible
@@ -43,6 +44,19 @@ export default class Projects extends Component {
                   </span>
                 </p>
               </div>
+            </div>
+          </div>
+          <div id="container-container">
+            <div id="nbf-container">
+              <NoBareFeetDemo />
+              <p id="nbf-text">
+                In one week, as part of a team of four, built a fully functional
+                e-commerce web application to sell shoes online. Responsible for
+                developing all product view, single product view, checkout page,
+                navigation and filter bars, deployment to Heroku, and ongoing
+                production release management. Implemented Redux store and API
+                routes for fetching and managing products
+              </p>
             </div>
           </div>
         </div>
