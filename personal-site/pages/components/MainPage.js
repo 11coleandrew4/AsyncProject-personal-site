@@ -14,9 +14,12 @@ export default class MainPage extends Component {
                 cursor={' '}
                 onInit={(typewriter) => {
                   typewriter
-                    .typeString('Home Cook')
+                    .changeDelay(50)
+                    .typeString('Problem Solver')
+                    .pauseFor(200)
                     .deleteAll()
-                    .typeString('Guitar Player')
+                    .typeString('Quick Learner')
+                    .pauseFor(200)
                     .deleteAll()
                     .typeString('Software Engineer')
                     .pauseFor(1000)
