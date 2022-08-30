@@ -230,12 +230,9 @@ a {
 
 #gotta-go-logo-container {
   position: absolute;
-  margin-right: -10em;
-  margin-top: 3em;
-  right: -3%;
-  top: 15em;
-  right: 10em;
-  margin-left: 31em;
+  margin-top: -41em;
+  margin-left: 32em;
+  width: 456px;
 }
 
 #gotta-go-logo {
@@ -250,8 +247,9 @@ a {
 
 p {
   text-indent: 5%;
-  line-height: 180%;
+  line-height: 150%;
   font-size: 18px;
+  width: 29em;
 }
 
 #gottago-link {

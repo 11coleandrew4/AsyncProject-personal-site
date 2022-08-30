@@ -30,14 +30,11 @@ export default class Projects extends Component {
                 <br />
                 <p>
                   GottaGo is a fully functional mobile application that shows
-                  <br />
                   and directs users to the closest public restrooms. Users also
-                  have the
-                  <br /> option of filtering by wheelchair accessible restrooms
-                  as well as restrooms <br /> with baby changing tables. This
-                  app leverages data from a third-party API
-                  <br /> as well as the react-native-maps and
-                  react-native-open-maps libraries.
+                  have the option of filtering by wheelchair accessible
+                  restrooms as well as restrooms with baby changing tables. This
+                  app leverages data from a third-party API as well as the
+                  react-native-maps and react-native-open-maps libraries.
                   <br />
                   <span id="gottago-link">
                     <Link href="https://github.com/11coleandrew4/GottaGo">
