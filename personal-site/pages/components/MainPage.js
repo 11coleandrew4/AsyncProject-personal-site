@@ -2,37 +2,46 @@ import React, { Component } from 'react';
 import MyPicture from './MyPicture';
 import Typewriter from 'typewriter-effect';
 import LinkedinLogo from './LinkedinLogo';
+import { Slide, Fade, Roll } from 'react-awesome-reveal';
 export default class MainPage extends Component {
   render() {
     return (
       <div id="aboutMe">
         <div id="main-content">
-          <h1 className="pageTitle">
-            Cole Berman:
-            <span id="text">
-              <Typewriter
-                cursor={' '}
-                onInit={(typewriter) => {
-                  typewriter
-                    .changeDelay(50)
-                    .typeString('Problem Solver')
-                    .pauseFor(200)
-                    .deleteAll()
-                    .typeString('Quick Learner')
-                    .pauseFor(200)
-                    .deleteAll()
-                    .typeString('Software Engineer')
-                    .pauseFor(1000)
-                    .pauseFor(1500)
-                    .start();
-                }}
-              />
-            </span>
-          </h1>
+          <Fade triggerOnce duration={8000}>
+            <h1 className="pageTitle">
+              Cole Berman:
+              <span id="text">
+                <Typewriter
+                  cursor={' '}
+                  onInit={(typewriter) => {
+                    typewriter
+                      .changeDelay(50)
+                      .typeString('Problem Solver')
+                      .pauseFor(200)
+                      .deleteAll()
+                      .typeString('Quick Learner')
+                      .pauseFor(200)
+                      .deleteAll()
+                      .typeString('Software Engineer')
+                      .pauseFor(1000)
+                      .pauseFor(1500)
+                      .start();
+                  }}
+                />
+              </span>
+            </h1>
+          </Fade>
+
           <div className="my-picture">
-            <MyPicture />
+            <Slide triggerOnce>
+              <MyPicture />
+            </Slide>
+
             <div id="linkedin-link">
-              <LinkedinLogo />
+              <Roll triggerOnce delay={1000}>
+                <LinkedinLogo />
+              </Roll>
             </div>
           </div>
         </div>

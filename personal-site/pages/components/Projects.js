@@ -7,7 +7,7 @@ import GetMoneyPicture from './GetMoneyPicture';
 import GottaGoDemo from './GottaGoDemo';
 import GottaGoLogo from './GottaGoLogo';
 import NoBareFeetDemo from './NoBareFeetDemo';
-import { Slide } from 'react-awesome-reveal';
+import { Slide, Fade, JackInTheBox } from 'react-awesome-reveal';
 
 export default class Projects extends Component {
   render() {
@@ -19,63 +19,54 @@ export default class Projects extends Component {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <div>
-          <Slide triggerOnce>
-            <div id="test">
-              <div>
-                <GottaGoDemo />
-              </div>
-
-              <div id="gotta-go-logo-container">
-                <GottaGoLogo />
-
-                <div id="gotta-go-text">
-                  <br />
-                  <br />
-                  <p id="gotta-go-paragraph">
-                    GottaGo is a fully functional mobile application that shows
-                    and directs users to the closest public restrooms. Users
-                    also have the option of filtering by wheelchair accessible
-                    restrooms as well as restrooms with baby changing tables.
-                    This app leverages data from a third-party API as well as
-                    the react-native-maps and react-native-open-maps libraries.
+          <div>
+            <Fade delay={300}>
+              <div id="test">
+                <div>
+                  <GottaGoDemo />
+                </div>
+                <div id="gotta-go-logo-container">
+                  <GottaGoLogo />
+                  <div id="gotta-go-text">
                     <br />
-                    <span id="gottago-link">
-                      <Link href="https://github.com/11coleandrew4/GottaGo">
-                        Check it out on GitHub!
-                      </Link>
-                    </span>
+                    <br />
+                    <p id="gotta-go-paragraph">
+                      GottaGo is a fully functional mobile application that
+                      shows and directs users to the closest public restrooms.
+                      Users also have the option of filtering by wheelchair
+                      accessible restrooms as well as restrooms with baby
+                      changing tables. This app leverages data from a
+                      third-party API as well as the react-native-maps and
+                      react-native-open-maps libraries.
+                      <br />
+                      <span id="gottago-link">
+                        <Link href="https://github.com/11coleandrew4/GottaGo">
+                          Check it out on GitHub!
+                        </Link>
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </Fade>
+            <Fade delay={300}>
+              <div id="container-container">
+                <div id="nbf-container">
+                  <NoBareFeetDemo />
+                  <p id="nbf-text">
+                    In one week, as part of a team of four, built a fully
+                    functional e-commerce web application to sell shoes online.
+                    Responsible for developing all product view, single product
+                    view, checkout page, navigation and filter bars, deployment
+                    to Heroku, and ongoing production release management.
+                    Implemented Redux store and API routes for fetching and
+                    managing products
                   </p>
                 </div>
               </div>
-            </div>
-          </Slide>
-
-          <div id="container-container">
-            <Slide direction="right" triggerOnce>
-              <div id="nbf-container">
-                <NoBareFeetDemo />
-                <p id="nbf-text">
-                  In one week, as part of a team of four, built a fully
-                  functional e-commerce web application to sell shoes online.
-                  Responsible for developing all product view, single product
-                  view, checkout page, navigation and filter bars, deployment to
-                  Heroku, and ongoing production release management. Implemented
-                  Redux store and API routes for fetching and managing products
-                </p>
-              </div>
-            </Slide>
+            </Fade>
           </div>
         </div>
-
-        {/* <div className="picture" id="gotta-go-picture">
-          <GottaGoPicture />
-        </div>
-        <div className="picture" id="dog-app-picture">
-          <DogAppPicture />
-        </div>
-        <div className="picture" id="get-money-app-picture">
-          <GetMoneyPicture />
-        </div> */}
       </div>
     );
   }
