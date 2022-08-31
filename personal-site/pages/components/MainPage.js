@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import MyPicture from './MyPicture';
 import Typewriter from 'typewriter-effect';
 import LinkedinLogo from './LinkedinLogo';
+import GithubLogo from './GithubLogo';
 import { Slide, Fade, Roll } from 'react-awesome-reveal';
 export default class MainPage extends Component {
   render() {
@@ -41,6 +42,11 @@ export default class MainPage extends Component {
             <div id="linkedin-link">
               <Roll triggerOnce delay={1000}>
                 <LinkedinLogo />
+              </Roll>
+            </div>
+            <div id="github-link">
+              <Roll triggerOnce delay={1200}>
+                <GithubLogo />
               </Roll>
             </div>
           </div>

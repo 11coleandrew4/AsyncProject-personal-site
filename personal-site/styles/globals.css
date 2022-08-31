@@ -167,39 +167,6 @@ a {
   margin-right: 20px;
 }
 
-#linkedin-logo-picture {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 3px;
-}
-
-#outer-linkedin-picture-div {
-  position: relative;
-  height: 133px;
-  width: 133px;
-  background: black;
-  border-radius: 50%;
-}
-
-@keyframes fadeIn {
-  0% {
-    background: black;
-  }
-  100% {
-    background: rgb(139, 139, 139) ease-in;
-  }
-}
-
-#outer-linkedin-picture-div:hover {
-  position: relative;
-  height: 133px;
-  width: 133px;
-  background: rgb(139, 139, 139);
-  border-radius: 50%;
-  animation: fadeIn 500ms;
-}
-
 .my-picture {
   /* justify-content: center; */
   /* left: 29%;
@@ -281,4 +248,121 @@ a {
 #nbf-demo {
   width: 640px;
   height: 334px;
+}
+
+/* SOCIAL LINKS */
+
+@keyframes fadeInGithub {
+  0% {
+    background: white;
+  }
+  100% {
+    background: rgb(95, 85, 186) ease-in;
+  }
+}
+
+@keyframes fadeOutGithub {
+  0% {
+    background: rgb(95, 85, 186);
+  }
+  100% {
+    background: white ease-in;
+  }
+}
+
+@keyframes fadeInLinkedin {
+  0% {
+    background: black;
+  }
+  100% {
+    background: rgb(139, 139, 139) ease-in;
+  }
+}
+
+@keyframes fadeOutLinkedin {
+  0% {
+    background: rgb(139, 139, 139);
+  }
+  100% {
+    background: black ease-in;
+  }
+}
+
+#linkedin-logo-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+#linkedin-logo-picture span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+#outer-linkedin-picture-div {
+  position: relative;
+  height: 133px;
+  width: 133px;
+  background: white;
+  border-radius: 50%;
+  /* animation: fadeOutLinkedin 500ms; */
+}
+
+/* #outer-linkedin-picture-div:hover {
+  position: relative;
+  height: 133px;
+  width: 133px;
+  background: rgb(139, 139, 139);
+  border-radius: 50%;
+  animation: fadeInLinkedin 500ms;
+} */
+
+#github-logo-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  border-radius: 50%;
+  border-width: 3px;
+  border-color: white;
+}
+
+#github-logo-picture span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+#outer-github-picture-div {
+  position: relative;
+  height: 133px;
+  width: 133px;
+  background: white;
+
+  border-radius: 50%;
+  top: 10em;
+  /* animation: fadeOutGithub 500ms; */
+}
+
+/* #outer-github-picture-div:hover {
+  position: relative;
+  height: 133px;
+  width: 133px;
+  background: rgb(95, 85, 186);
+  border-radius: 50%;
+  animation: fadeInGithub 500ms;
+} */
+
+#github-link {
+  position: absolute;
+  margin-left: 28rem;
+  margin-top: -29.5rem;
+  border-radius: 50%;
 }
