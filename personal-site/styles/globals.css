@@ -366,3 +366,50 @@ a {
   margin-top: -29.5rem;
   border-radius: 50%;
 }
+
+#resume-logo-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  border-radius: 50%;
+  border-width: 3px;
+  border-color: white;
+}
+
+#resume-logo-picture span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+/* #resume-github-picture-div {
+  position: relative;
+  height: 133px;
+  width: 133px;
+  background: white;
+
+  border-radius: 50%;
+  top: 10em;
+  animation: fadeOutGithub 500ms;
+} */
+
+#outer-resume-picture-div {
+  position: relative;
+  height: 133px;
+  width: 133px;
+  background: white;
+
+  border-radius: 50%;
+  top: 20em;
+  /* animation: fadeOutGithub 500ms; */
+}
+
+#resume-link {
+  position: absolute;
+  margin-left: 28rem;
+  margin-top: -29.5rem;
+  border-radius: 50%;
+}
