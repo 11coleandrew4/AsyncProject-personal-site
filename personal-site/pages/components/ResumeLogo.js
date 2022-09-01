@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 function ResumeLogo() {
   return (
-    <Link href="https://github.com/11coleandrew4">
+    <Link href="https://docs.google.com/document/d/e/2PACX-1vTCFs7YcMeUBkdJKjpswNvea6Vgys2qm0dp-hJUHuYcPiTNuxXgMtRtxyDplQwuagOGwKqzG0IMMV9U/pub">
       <div id="outer-resume-picture-div">
         <div id="resume-logo-picture">
           <Image

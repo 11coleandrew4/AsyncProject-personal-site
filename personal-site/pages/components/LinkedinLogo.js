@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 function LinkedinLogo() {
   return (
-    <Link href="https://www.linkedin.com/in/cole-berman-8a61b01a9/">
+    <Link href="https://www.linkedin.com/in/cole-berman/">
       <div id="outer-linkedin-picture-div">
         <div id="linkedin-logo-picture">
           <Image

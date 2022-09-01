@@ -10,7 +10,7 @@ export default class MainPage extends Component {
     return (
       <div id="aboutMe">
         <div id="main-content">
-          <Fade triggerOnce duration={8000}>
+          <Fade triggerOnce duration={2000}>
             <h1 className="pageTitle">
               Cole Berman:
               <span id="text">
@@ -19,12 +19,25 @@ export default class MainPage extends Component {
                   onInit={(typewriter) => {
                     typewriter
                       .changeDelay(50)
-                      .typeString('Problem Solver')
-                      .pauseFor(200)
+                      .typeString('Is he smart?')
+                      .pauseFor(300)
                       .deleteAll()
-                      .typeString('Quick Learner')
-                      .pauseFor(200)
+                      .typeString('Yes.')
+                      .pauseFor(500)
                       .deleteAll()
+                      .typeString('A hard worker?')
+                      .pauseFor(300)
+                      .deleteAll()
+                      .typeString('Yes.')
+                      .pauseFor(500)
+                      .deleteAll()
+                      .typeString('Good looking?')
+                      .pauseFor(300)
+                      .deleteAll()
+                      .typeString('Oh, absolutely.')
+                      .pauseFor(500)
+                      .deleteAll()
+                      .changeDelay(70)
                       .typeString('Software Engineer')
                       .pauseFor(1000)
                       .pauseFor(1500)
@@ -41,7 +54,7 @@ export default class MainPage extends Component {
             </Slide>
 
             <div id="linkedin-link">
-              <Roll triggerOnce delay={1000}>
+              <Roll triggerOnce delay={1400}>
                 <LinkedinLogo />
               </Roll>
             </div>
@@ -51,7 +64,7 @@ export default class MainPage extends Component {
               </Roll>
             </div>
             <div id="resume-link">
-              <Roll triggerOnce delay={1400}>
+              <Roll triggerOnce delay={1000}>
                 <ResumeLogo />
               </Roll>
             </div>
