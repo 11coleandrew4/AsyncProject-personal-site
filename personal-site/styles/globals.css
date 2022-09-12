@@ -519,8 +519,26 @@ a {
 
 /*PAGE TITLE SPACING*/
 .pageTitle {
-  padding-left: 25rem;
+  /* padding-left: 25rem;
   margin-top: -0.5em;
   margin-bottom: 1em;
-  padding-top: 1px;
+  padding-top: 1px; */
+}
+
+#email-text {
+  /* position: absolute;
+  right: 11em;
+  top: 22em;
+  rotate: 270deg;
+  width: 20em; */
+  position: absolute;
+  right: 8.8em;
+  height: 4em;
+  top: 20em;
+  rotate: 270deg;
+  width: 21em;
+}
+
+#email-text a {
+  font-size: 17px;
 }
