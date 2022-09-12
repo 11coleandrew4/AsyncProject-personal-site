@@ -32,10 +32,8 @@ export default class Navbar1 extends Component {
                   </a>
                 </li>
                 <div className="indicator"></div>
-                {/* <div className="indicator-selector"></div> */}
               </ul>
             </div>
-            {/* <div id="render-handler-div">{renderHandler}</div> */}
           </div>
 
           <script

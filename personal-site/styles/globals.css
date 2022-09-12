@@ -169,10 +169,6 @@ a {
 }
 
 .my-picture {
-  /* justify-content: center; */
-  /* left: 29%;
-  bottom: 13.5%; */
-
   border-radius: 25px;
 }
 .pageTitle {
@@ -183,8 +179,6 @@ a {
   position: absolute;
   margin-left: 28rem;
   margin-top: -29.5rem;
-  /* margin-left: 160%;
-  bottom: 20rem; */
 }
 
 #gottago-demo {
@@ -255,108 +249,39 @@ a {
 
 @keyframes fadeIn {
   0% {
-    /* background: white; */
     padding: 3px;
   }
   100% {
-    /* background: rgb(95, 85, 186) ease-in; */
     padding: 6px;
   }
 }
 
 @keyframes fadeOut {
   0% {
-    /* background: rgb(95, 85, 186); */
     padding: 6px;
   }
   100% {
-    /* background: white ease-in; */
     padding: 3px;
   }
 }
 
 @keyframes fadeInLinkedin {
   0% {
-    /* background: white; */
     padding: 0px;
   }
   100% {
-    /* background: rgb(95, 85, 186) ease-in; */
     padding: 3px;
   }
 }
 
 @keyframes fadeOutLinkedin {
   0% {
-    /* background: rgb(95, 85, 186); */
     padding: 3px;
   }
   100% {
-    /* background: white ease-in; */
     padding: 0px;
   }
 }
-
-/* #linkedin-logo-picture {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 3px;
-  border-radius: 50%;
-  animation: fadeOut 200ms;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 3px;
-  border-radius: 50%;
-  border-width: 3px;
-  border-color: white;
-  animation: fadeOut 200ms;
-} */
-
-/* #linkedin-logo-picture:hover {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 6px;
-  border-radius: 50%;
-  animation: fadeIn 200ms;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 6px;
-  border-radius: 50%;
-  border-width: 3px;
-  border-color: white;
-  animation: fadeIn 200ms;
-} */
-
-/* #outer-linkedin-picture-div {
-  position: relative;
-  height: 133px;
-  width: 133px;
-  background: white;
-  border-radius: 50%;
-
-  padding: 0px;
-
-  border-color: white;
-  animation: fadeOutLinkedin 200ms;
-} */
-
-/* #outer-linkedin-picture-div:hover {
-  position: relative;
-  height: 133px;
-  width: 133px;
-  background: white;
-  border-radius: 50%;
-
-  padding: 3px;
-
-  animation: fadeInLinkedin 200ms;
-} */
 
 /* GITHUB STYLING */
 
@@ -397,15 +322,8 @@ a {
   background: white;
 
   border-radius: 50%;
-  /* top: 10em; */
 }
 
-/* #github-link {
-  position: absolute;
-  margin-left: 28rem;
-  margin-top: -29.5rem;
-  border-radius: 50%;
-} */
 #github-link {
   position: absolute;
   margin-left: 28rem;
@@ -453,20 +371,12 @@ a {
 }
 
 #outer-resume-picture-div {
-  /* position: relative;
-  height: 133px;
-  width: 133px;
-  background: white;
-  border-radius: 50%;
-  top: -29.5em;
-  left: 28em; */
   position: relative;
   height: 133px;
   width: 133px;
   background: white;
 
   border-radius: 50%;
-  /* top: 0em; */
 }
 
 /* LINKEDIN STYLING */
@@ -515,15 +425,10 @@ a {
   background: white;
 
   border-radius: 50%;
-  /* top: 20em; */
 }
 
 /*PAGE TITLE SPACING*/
 .pageTitle {
-  /* padding-left: 25rem;
-  margin-top: -0.5em;
-  margin-bottom: 1em;
-  padding-top: 1px; */
 }
 
 #email-text {
@@ -545,12 +450,6 @@ a {
 }
 
 #swoopdeck-demo {
-  /* display: block;
-  width: 300px;
-  min-width: 50em;
-  padding-top: 3em;
-  padding-bottom: 5em;
-  padding-right: 0em; */
   display: block;
   width: 300px;
   min-width: 55em;
@@ -592,20 +491,10 @@ a {
 }
 
 #swoopdeck-container {
-  /* margin-left: 17em;
   display: flex;
-  flex-direction: row; */
-  /* margin-left: 10%; */
-  /* display: flex;
-  flex-direction: row;
-
-  margin-top: 12em; */
-  /* margin-left: 40%; */
-  display: flex;
-  /* flex-wrap: wrap-reverse; */
 
   flex-direction: row;
-  /* justify-content: center; */
+
   align-content: center;
   margin-top: 6em;
 }
