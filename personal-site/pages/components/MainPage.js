@@ -93,25 +93,7 @@ export default class MainPage extends Component {
                 <Typewriter
                   onInit={(typewriter) => {
                     typewriter
-                      .changeDelay(50)
-                      .typeString('Is he smart?')
-                      .pauseFor(300)
-                      .deleteAll()
-                      .typeString('Yes.')
-                      .pauseFor(500)
-                      .deleteAll()
-                      .typeString('A hard worker?')
-                      .pauseFor(300)
-                      .deleteAll()
-                      .typeString('Yes.')
-                      .pauseFor(500)
-                      .deleteAll()
-                      .typeString('Good looking?')
-                      .pauseFor(300)
-                      .deleteAll()
-                      .typeString('Oh, absolutely.')
-                      .pauseFor(500)
-                      .deleteAll()
+
                       .changeDelay(70)
                       .typeString('Software Engineer')
                       .pauseFor(1000)

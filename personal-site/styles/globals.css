@@ -165,6 +165,7 @@ a {
 
 #footer-text {
   margin-right: 20px;
+  width: 12rem;
 }
 
 .my-picture {
@@ -552,10 +553,10 @@ a {
   padding-right: 0em; */
   display: block;
   width: 300px;
-  min-width: 50em;
+  min-width: 55em;
   padding-top: 3em;
+  padding-left: 8em;
   padding-bottom: 5em;
-  padding-right: 3em;
 }
 
 #swoopdeck-logo {
@@ -568,8 +569,9 @@ a {
   text-indent: 5%;
   line-height: 150%;
   font-size: 18px;
-  width: 59em;
+  width: 71em;
   padding-left: 10%;
+  margin-top: -30px;
 }
 
 #swoopdeck-logo-container {
@@ -578,7 +580,7 @@ a {
   width: 100%; */
   min-width: 21em;
   margin-top: 6em;
-  margin-left: 5em;
+  margin-left: 7em;
   /* margin-left: 50em;
   top: 69em;
   position: absolute; */
@@ -594,13 +596,86 @@ a {
   display: flex;
   flex-direction: row; */
   /* margin-left: 10%; */
-  display: flex;
+  /* display: flex;
   flex-direction: row;
 
-  margin-top: 12em;
+  margin-top: 12em; */
+  /* margin-left: 40%; */
+  display: flex;
+  /* flex-wrap: wrap-reverse; */
+
+  flex-direction: row;
+  /* justify-content: center; */
+  align-content: center;
+  margin-top: 6em;
 }
 
 #navbar-container {
   width: 60%;
   margin-left: 19.7%;
+}
+
+@media screen and (max-width: 1276px) {
+  #swoopdeck-container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-top: 2em;
+  }
+  #swoopdeck-logo-container {
+    min-width: 21em;
+    margin-left: 28em;
+  }
+  #swoopdeck-demo {
+    display: block;
+    width: 300px;
+    min-width: 65em;
+    padding-top: 3em;
+    padding-left: 8em;
+    padding-bottom: 5em;
+  }
+  #swoopdeck-paragraph {
+    text-indent: 5%;
+    line-height: 150%;
+    font-size: 18px;
+    width: 58em;
+    padding-left: 16%;
+    margin-top: -30px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #swoopdeck-container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-top: 2em;
+  }
+  #swoopdeck-logo-container {
+    min-width: 21em;
+    margin-left: 23em;
+  }
+  #swoopdeck-demo {
+    display: block;
+    width: 300px;
+    min-width: 55em;
+    padding-top: 3em;
+    padding-left: 8em;
+    padding-bottom: 5em;
+  }
+  #swoopdeck-paragraph {
+    text-indent: 5%;
+    line-height: 150%;
+    font-size: 18px;
+    width: 51em;
+    padding-left: 18%;
+    margin-top: -30px;
+  }
+}
+
+@media screen and (max-width: 1137px) {
+  #gotta-go-logo-container {
+    position: absolute;
+    margin-top: -39em;
+    margin-left: 26em;
+    width: 456px;
+  }
 }
