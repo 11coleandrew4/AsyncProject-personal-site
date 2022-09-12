@@ -81,6 +81,8 @@ import GetMoneyPicture from './GetMoneyPicture';
 import GottaGoDemo from './GottaGoDemo';
 import GottaGoLogo from './GottaGoLogo';
 import NoBareFeetDemo from './NoBareFeetDemo';
+import SwoopDeckDemo from './SwoopDeckDemo';
+import SwoopDeckLogo from './SwoopDeckLogo';
 import { Slide, Fade, JackInTheBox } from 'react-awesome-reveal';
 
 export default class Projects extends Component {
@@ -124,16 +126,18 @@ export default class Projects extends Component {
               </div>
             </Fade>
             <Fade delay={300}>
-              <div id="test">
-                <div>
-                  <GottaGoDemo />
-                </div>
-                <div id="gotta-go-logo-container">
-                  <GottaGoLogo />
-                  <div id="gotta-go-text">
+              <div>
+                <div id="swoopdeck-container">
+                  <div>
+                    <SwoopDeckDemo />
+                  </div>
+                  <div id="swoopdeck-logo-container">
+                    <SwoopDeckLogo />
+
+                    {/* <div id="swoopdeck-text">
                     <br />
                     <br />
-                    <p id="gotta-go-paragraph">
+                    <p id="swoopdeck-paragraph">
                       GottaGo is a fully functional mobile application that
                       shows and directs users to the closest public restrooms.
                       Users also have the option of filtering by wheelchair
@@ -148,8 +152,23 @@ export default class Projects extends Component {
                         </Link>
                       </span>
                     </p>
+                  </div> */}
                   </div>
                 </div>
+                <p id="swoopdeck-paragraph">
+                  GottaGo is a fully functional mobile application that shows
+                  and directs users to the closest public restrooms. Users also
+                  have the option of filtering by wheelchair accessible
+                  restrooms as well as restrooms with baby changing tables. This
+                  app leverages data from a third-party API as well as the
+                  react-native-maps and react-native-open-maps libraries.
+                  <br />
+                  <span id="gottago-link">
+                    <Link href="https://github.com/11coleandrew4/GottaGo">
+                      Check it out on GitHub!
+                    </Link>
+                  </span>
+                </p>
               </div>
             </Fade>
           </div>

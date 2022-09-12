@@ -8,7 +8,7 @@ export default class Navbar1 extends Component {
   render() {
     const { clickHandler } = this.props;
     return (
-      <div>
+      <div id="navbar-container">
         <div id="navbarAll">
           <div id="navbarBody">
             <div id="navbarUl">

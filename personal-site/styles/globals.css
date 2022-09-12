@@ -234,7 +234,7 @@ a {
 }
 
 #test {
-  margin-left: 17em;
+  margin-left: 21%;
 }
 
 #nbf-text {
@@ -541,4 +541,66 @@ a {
 
 #email-text a {
   font-size: 17px;
+}
+
+#swoopdeck-demo {
+  /* display: block;
+  width: 300px;
+  min-width: 50em;
+  padding-top: 3em;
+  padding-bottom: 5em;
+  padding-right: 0em; */
+  display: block;
+  width: 300px;
+  min-width: 50em;
+  padding-top: 3em;
+  padding-bottom: 5em;
+  padding-right: 3em;
+}
+
+#swoopdeck-logo {
+  position: absolute;
+  display: block;
+  top: -20em;
+}
+
+#swoopdeck-paragraph {
+  text-indent: 5%;
+  line-height: 150%;
+  font-size: 18px;
+  width: 59em;
+  padding-left: 10%;
+}
+
+#swoopdeck-logo-container {
+  /* margin-top: 6em;
+  margin-left: -6em;
+  width: 100%; */
+  min-width: 21em;
+  margin-top: 6em;
+  margin-left: 5em;
+  /* margin-left: 50em;
+  top: 69em;
+  position: absolute; */
+}
+
+#swoopdeck-text {
+  margin-left: -16%;
+  padding-right: 20px;
+}
+
+#swoopdeck-container {
+  /* margin-left: 17em;
+  display: flex;
+  flex-direction: row; */
+  /* margin-left: 10%; */
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 12em;
+}
+
+#navbar-container {
+  width: 60%;
+  margin-left: 19.7%;
 }
